@@ -67,7 +67,7 @@ public class StrawgolemConfig {
 
 		case FILTER_MODE_BLACKLIST:
 			// prioritise blacklist
-			FilterMatch blacklistMatch = blockMatchesFilter(block, whitelist);
+			FilterMatch blacklistMatch = blockMatchesFilter(block, blacklist);
 			// if we got a blacklist match by mod, check if we're whitelisted by item
 			if (blacklistMatch == FilterMatch.Mod)
 				return blockMatchesFilter(block, whitelist) == FilterMatch.Exact;
