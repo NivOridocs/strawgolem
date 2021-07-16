@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "strawgolem",
+  "version": "${version}",
+  "name": "Straw Golem",
+  "description": "Adds straw golems, they're farmers.",
+  "authors": [
+    "Niv Oridocs"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/strawgolem",
+    "sources": "https://github.com/NivOridocs/strawgolem"
+  },
+  "license": "MIT",
+  "icon": "assets/strawgolem/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "niv.blastrod.StrawgolemMod"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
